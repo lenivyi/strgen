@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$(whoami)" != "root" ]; then
-echo "Error: you need to be root to install stringgenerator"
+echo "Error: you need to be root to uninstall stringgenerator"
   exit 1
 fi
 
