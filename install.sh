@@ -1,3 +1,8 @@
+if [ "$(whoami)" != "root" ]; then
+  echo "Error: you need to be root to install stringgenerator"
+  exit 1
+fi
+
 echo "Creating StringGenerator directory..."
 mkdir /opt/strgen
 cp -r * /opt/strgen
