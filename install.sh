@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ "$(whoami)" != "root" ]; then
   echo "Error: you need to be root to install stringgenerator"
   exit 1
